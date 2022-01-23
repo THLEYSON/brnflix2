@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h1{
+    color:rgb(179, 45, 36);
+}
+.form{
+    width: 100%;
+    background-color: darkgrey;
+}
+.form-config{
+    width: 40%;
+    height: 400px;
+    background-color: aqua;
+    margin: 0 auto;
+    align-items: center;
+}
+.form-config form input[type="password"], input[type="email"]{
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 50px;
+    height: 50px;
+    border-color: rgb(98, 97, 97);
+    border-radius: 12px;
+}
+.form-config form input[type="submit"]{
+    width: 40%;
+    margin: 5px 112px;
+    
+}
+a{
+    margin: 120px;
+    text-decoration: none;
+    color: white;
+}
